@@ -15,3 +15,8 @@ by no more than 1.
 
 A balanced binary tree is such that the algorithmic time complexity of its 
 operations is maintained.
+
+## Big O Notation
+The notation used to describe the time complexity and space complexity of algorithms
+
+
