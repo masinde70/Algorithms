@@ -23,4 +23,4 @@ The notation used to describe the time complexity and space complexity of algori
  - Logarithmic: O(log(n))
  - Linear: O(n)
  - Log-linear: O(nlog(n))
- - Quadratic: O(n^2)
+ - Quadratic: O(n<sup>2</sup>)
