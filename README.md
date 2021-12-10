@@ -19,4 +19,8 @@ operations is maintained.
 ## Big O Notation
 The notation used to describe the time complexity and space complexity of algorithms
 
-
+ - Constant: O(1)
+ - Logarithmic: O(log(n))
+ - Linear: O(n)
+ - Log-linear: O(nlog(n))
+ - Quadratic: O(n)
