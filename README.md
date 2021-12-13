@@ -46,3 +46,12 @@ but its leaf nodes don't necessarily have the same depth
 ## Connected Graph
 A graph is connected if for every pair of vertices in the graph, there is a path
 of one or more edges connecting the given vertices.
+
+ - Directed Graph
+   A graph whose edges are directed, meaning that they can only be traversed in one direction
+   which is specified.
+   For example, a graph of airports and flights would likely be directed,
+   since flights goes from one airport to another.
+
+ - Cyclic Graph
+   A graph that has at least one cycle
