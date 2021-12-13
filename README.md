@@ -77,3 +77,15 @@ is by definition made up of a constant number of bits.
 It follows that, regardless of how large an integer is, an operation performed on
 its fixed-width-integer representation consts of constant number of bit manipulation,
 since the integer is made up of fixed number of bits.
+
+## FUll Binary Tree
+A binary tree whose nodes all have either two child-nodes or zero child-nodes.
+```
+   1 
+ /    \
+2      3
+      /  \
+     6    7 
+    /   \
+   8     9
+```
