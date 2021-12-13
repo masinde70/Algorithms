@@ -39,3 +39,6 @@ to it head, effectively forming a closed circle
 A circular linked list can be either a singly circular linked list or doubly
 circular linked list
 
+## Complete Binary Tree
+A binary tree that's almost perfect; its interior nodes all have two child-nodes,
+but its leaf nodes don't necessarily have the same depth
