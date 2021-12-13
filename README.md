@@ -42,3 +42,7 @@ circular linked list
 ## Complete Binary Tree
 A binary tree that's almost perfect; its interior nodes all have two child-nodes,
 but its leaf nodes don't necessarily have the same depth
+
+## Connected Graph
+A graph is connected if for every pair of vertices in the graph, there is a path
+of one or more edges connecting the given vertices.
