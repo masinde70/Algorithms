@@ -55,3 +55,25 @@ of one or more edges connecting the given vertices.
 
  - Cyclic Graph
    A graph that has at least one cycle
+
+## Fixed-width Integer
+An integer represented by a fixed amount of bits. For example, a 32-bit integer
+is an integer represented by 32 bits (4 bytes), and a 64-bit integer is an integer
+represented by 64 bits (8 bytes).
+Example 32-bit representation of the number 1
+```
+00000000 00000000 00000000 00000001
+
+```
+The following is the 64-bit representation of the number 10, with clearly separated
+bytes
+```
+00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00001010
+```
+Regardless of how large an integer is, its fixed-width-integer representation
+is by definition made up of a constant number of bits.
+
+It follows that, regardless of how large an integer is, an operation performed on
+its fixed-width-integer representation consts of constant number of bit manipulation,
+since the integer is made up of fixed number of bits.
