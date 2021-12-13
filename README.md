@@ -24,3 +24,18 @@ The notation used to describe the time complexity and space complexity of algori
  - Linear: O(n)
  - Log-linear: O(nlog(n))
  - Quadratic: O(n<sup>2</sup>)
+ - Cubic: O(<sup>n3</sup>)
+ - Exponential: O(<sup>2</sup>)
+ - Factorial>: O(n!)
+
+## Binary Tree
+A tree whose nodes have child-nodes.
+Operations of binary tree have a
+
+## Circular Linked List
+A linked list that has no clear head or tail, because its tail points 
+to it head, effectively forming a closed circle
+
+A circular linked list can be either a singly circular linked list or doubly
+circular linked list
+
