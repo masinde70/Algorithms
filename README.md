@@ -15,6 +15,10 @@ by no more than 1.
 
 A balanced binary tree is such that the algorithmic time complexity of its 
 operations is maintained.
+This is the example of imbalanced binary tree.
+inserting at the left subtree at the bottom of this imbalanced binary would not be logarithmic-time
+operation since it will involve traversing through most of the tree's nodes
+
 ```
                 1
               /    \
@@ -26,6 +30,7 @@ operations is maintained.
         /
       10
 ```
+
 
 ## Big O Notation
 The notation used to describe the time complexity and space complexity of algorithms
