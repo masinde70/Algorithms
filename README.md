@@ -15,6 +15,17 @@ by no more than 1.
 
 A balanced binary tree is such that the algorithmic time complexity of its 
 operations is maintained.
+```
+                1
+              /    \
+             2       3
+            /
+           4
+          /
+         8
+        /
+      10
+```
 
 ## Big O Notation
 The notation used to describe the time complexity and space complexity of algorithms
@@ -78,7 +89,7 @@ It follows that, regardless of how large an integer is, an operation performed o
 its fixed-width-integer representation consts of constant number of bit manipulation,
 since the integer is made up of fixed number of bits.
 
-## FUll Binary Tree
+## Full Binary Tree
 A binary tree whose nodes all have either two child-nodes or zero child-nodes.
 ```
    1 
