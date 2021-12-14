@@ -30,7 +30,16 @@ operation since it will involve traversing through most of the tree's nodes
         /
       10
 ```
-
+The following is the example of a balanced binary tree
+```
+               1
+             /     \
+            2       3
+          /   \    /   \
+         4     5  6     7
+        /  \           /
+       10   9         8
+```
 
 ## Big O Notation
 The notation used to describe the time complexity and space complexity of algorithms
