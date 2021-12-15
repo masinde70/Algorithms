@@ -1,13 +1,15 @@
 #Terminologies
 
 ## Acyclic Graph
-A graph that has no cycles
+A graph that has no cycles.
 
 ## Array
 A linear collection of data values that are accessible at numbered indices, 
 starting at index 0.
 
-
+## Byte
+A group of eight bits. For example, 00100001 is a byte. A single byte can represent up
+to 256 data values (2<sup>8</sup>)
 
 ## Balanced Binary Tree
 A binary tree whose nodes all have left and right subtrees whose heights differ
