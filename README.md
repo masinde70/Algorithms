@@ -128,4 +128,6 @@ A cycle occurs in a graph when three or more vertices in the graph are connected
 The definition of a graph cycle is sometimes broadened to include cycles of length two or one.
 
 # Hash Table
-A data structure that provides fast insertion, deletion and lookup of key/value pairs
+A data structure that provides fast insertion, deletion and lookup of key/value pairs.
+ Under the hood, a sh table uses a dynamic array of linked lists to efficiently store key/value pair. When inserting a key/value pair, 
+a hash function first maps the key, which is typically a string or any data that can be hashed
