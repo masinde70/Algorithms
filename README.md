@@ -119,3 +119,7 @@ A binary tree whose nodes all have either two child-nodes or zero child-nodes.
 
 # Graph
 A collection of nodes or values called **vertices** that might be related; relation between vertices are called edges
+Many things in life can be represented by graphs, for example, in social network can be represented by a graph
+whose vertices are users and whose edges are friendship between the users. Similarly,
+a city map can be represented by a graph whose edges are roads between the locations
+
