@@ -125,5 +125,7 @@ a city map can be represented by a graph whose edges are roads between the locat
 
 # Graph Cycle
 A cycle occurs in a graph when three or more vertices in the graph are connected to form as closed loop.
-
 The definition of a graph cycle is sometimes broadened to include cycles of length two or one.
+
+# Hash Table
+A data structure that provides fast insertion, deletion and lookup of key/value pairs
