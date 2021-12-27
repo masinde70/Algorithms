@@ -116,3 +116,6 @@ A binary tree whose nodes all have either two child-nodes or zero child-nodes.
     /   \
    8     9
 ```
+
+# Graph
+A collection of nodes or values called **vertices** that might be related; relation between vertices are called edges
