@@ -123,3 +123,5 @@ Many things in life can be represented by graphs, for example, in social network
 whose vertices are users and whose edges are friendship between the users. Similarly,
 a city map can be represented by a graph whose edges are roads between the locations
 
+# Graph Cycle
+A cycle occurs in a graph when three or more vertices in the graph are connected to form as closed loop
