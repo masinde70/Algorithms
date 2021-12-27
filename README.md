@@ -130,4 +130,7 @@ The definition of a graph cycle is sometimes broadened to include cycles of leng
 # Hash Table
 A data structure that provides fast insertion, deletion and lookup of key/value pairs.
  Under the hood, a sh table uses a dynamic array of linked lists to efficiently store key/value pair. When inserting a key/value pair, 
-a hash function first maps the key, which is typically a string or any data that can be hashed
+a hash function first maps the key, which is typically a string or any data that can be hashed.
+
+# K-ary Tree
+A tree whose nodes have up to k child-nodes. A **binary tree** is a k-ary tree where **k == 2**.
