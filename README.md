@@ -137,3 +137,5 @@ A tree whose nodes have up to k child-nodes. A **binary tree** is a k-ary tree w
 
 # Logarithm
 A mathematical concept that's used in computer science
+
+**log<sub>b</sub>(x) = y** if and only if **b<sup>y</sup> = x**
