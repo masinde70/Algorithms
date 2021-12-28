@@ -139,3 +139,5 @@ A tree whose nodes have up to k child-nodes. A **binary tree** is a k-ary tree w
 A mathematical concept that's used in computer science
 
 **log<sub>b</sub>(x) = y** if and only if **b<sup>y</sup> = x**
+logarithm is used to describe the complexity analysis of algorithms.
+
