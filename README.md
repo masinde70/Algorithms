@@ -141,3 +141,5 @@ A mathematical concept that's used in computer science
 **log<sub>b</sub>(x) = y** if and only if **b<sup>y</sup> = x**
 logarithm is used to describe the complexity analysis of algorithms.
 
+An algorithm has time complexity (O(log(n))), where n is the size of the input.
+
