@@ -134,3 +134,6 @@ a hash function first maps the key, which is typically a string or any data that
 
 # K-ary Tree
 A tree whose nodes have up to k child-nodes. A **binary tree** is a k-ary tree where **k == 2**.
+
+# Logarithm
+A mathematical concept that's used in computer science
