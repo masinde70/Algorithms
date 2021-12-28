@@ -142,4 +142,6 @@ A mathematical concept that's used in computer science
 logarithm is used to describe the complexity analysis of algorithms.
 
 An algorithm has time complexity (O(log(n))), where n is the size of the input.
+When the algorithm's input doubles in size then the number of operations needed to complete the 
+algorithm only increases by one unit.
 
