@@ -162,3 +162,4 @@ the same depth
 AN array-like data structure whose elements follow the LIFO rule
 A stack is always compared to a stack of books on a table: the last book that's
 placed on the stack of books is the first one taken off the stack.
+
