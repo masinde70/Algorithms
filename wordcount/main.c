@@ -24,6 +24,11 @@ int word_count(const char *input_text, word_count_word_t *words){
     int counts_all = 0;
 
     /* for controlling the while loop*/
+    int loop = 1;
 
+    /* for the for-loop */
+    int i = 0;
+
+    /* collects all words in the word_list */
 
 }
