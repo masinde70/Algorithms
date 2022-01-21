@@ -14,6 +14,9 @@ typedef struct word_count_word{
     int count;
 } word_count_word_t;
 
+#define EXCESSIVE_LENGTH_WORD -1
+#define EXCESSIVE_NUMBER_OF_WORDS -2
+
 int word_count(const char *input_text, word_count_word_t *words);
 
 #endif //WORDCOUNT_WORD_COUNT_H

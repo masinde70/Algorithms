@@ -48,6 +48,11 @@ int word_count(const char *input_text, word_count_word_t *words){
                     /* counts the word */
                     counts_all ++;
                 }
+                else /* error case too many words */
+                {
+                    counts_all = EXCESSIVE_NUMBER_OF_WORDS;
+                    loop = 0;
+                }
             }
         }
     }
