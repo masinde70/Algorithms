@@ -10,4 +10,12 @@ int main() {
 
 int word_count(const char *input_text, word_count_word_t *words){
    char word_list[MAX_WORDS_LENGTH];
+   char input[1000];
+    stpcpy(input, input_text);
+    char *p_str = input;
+
+    /* index for iteration over input string*/
+    int index = 0;
+
+
 }
