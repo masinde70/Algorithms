@@ -53,6 +53,10 @@ int word_count(const char *input_text, word_count_word_t *words){
                     counts_all = EXCESSIVE_NUMBER_OF_WORDS;
                     loop = 0;
                 }
+            } else /* error case word too long */
+            {
+                counts_all = EXCESSIVE_LENGTH_WORD;
+                loop = 0;
             }
         }
     }
