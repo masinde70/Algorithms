@@ -46,7 +46,7 @@ int word_count(const char *input_text, word_count_word_t *words){
                     index_list++;
 
                     /* counts the word */
-
+                    counts_all ++;
                 }
             }
         }
