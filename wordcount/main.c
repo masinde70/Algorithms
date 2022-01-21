@@ -31,4 +31,20 @@ int word_count(const char *input_text, word_count_word_t *words){
 
     /* collects all words in the word_list */
 
+    while (input[index] && loop)
+    {
+        if (input[index] == ' ')
+        {
+            input[index] = '\0';
+            if (strlen(p_str) <= MAX_WORDS_LENGTH)
+            {
+                if (index_list <= MAX_WORDS)
+                {
+                    strcpy(word_list[index_list], p_str);
+                    /* sets pointer to next position*/
+                }
+            }
+        }
+    }
+
 }
