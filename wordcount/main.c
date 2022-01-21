@@ -17,5 +17,13 @@ int word_count(const char *input_text, word_count_word_t *words){
     /* index for iteration over input string*/
     int index = 0;
 
+    /* index for word_list*/
+    int index_list = 0;
+
+    /* Counts all words */
+    int counts_all = 0;
+
+    /* for controlling the while loop*/
+
 
 }
