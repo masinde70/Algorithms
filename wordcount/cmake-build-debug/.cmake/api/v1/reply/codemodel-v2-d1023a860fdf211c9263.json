@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/masinde/CLionProjects/wordcount/cmake-build-debug",
-		"source" : "/Users/masinde/CLionProjects/wordcount"
+		"build" : "/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug",
+		"source" : "/Users/masinde/CLionProjects/Algorithms/wordcount"
 	},
 	"version" : 
 	{
