@@ -44,6 +44,9 @@ int word_count(const char *input_text, word_count_word_t *words){
                     /* sets pointer to next position*/
                     p_str = input + index + 1;
                     index_list++;
+
+                    /* counts the word */
+
                 }
             }
         }
