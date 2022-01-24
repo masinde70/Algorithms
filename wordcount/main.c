@@ -4,9 +4,9 @@
 
 
 int main() {
-    printf("Hello, World!\n");
+    const char masinde = "Thus it was";
+    word_count(masinde, masinde);
     return 0;
-    word_count();
 }
 
 int word_count(const char *input_text, word_count_word_t *words){
