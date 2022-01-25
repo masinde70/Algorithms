@@ -64,6 +64,9 @@ char * abbreviate(const char *phrase)
        if (*p_str == ' ')
        {
            *p_str = '\0';
+           strncat(words[index], p_start, 80);
+           index++;
+           p_start = p_str + 1;
        }
    }
 
