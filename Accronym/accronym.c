@@ -50,7 +50,15 @@ char * abbreviate(const char *phrase)
     * */
    for(i = 0; i < counter; i++ ){
        words[i] = (char *)malloc(80 * sizeof(char ));
+       strcpy(words[i], "");
    }
+
+   /* rewind string*/
+   p_str = str;
+
+   char *p_start = p_str;
+
+
 
 
 }
