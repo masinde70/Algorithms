@@ -48,6 +48,9 @@ char * abbreviate(const char *phrase)
    /*
     * Initializes words-array with empty strings
     * */
+   for(i = 0; i < counter; i++ ){
+       words[i] = (char *)malloc(80 * sizeof(char ));
+   }
 
 
 }
