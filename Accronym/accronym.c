@@ -21,4 +21,7 @@ char * abbreviate(const char *phrase)
    /* for position the words*/
    int index = 0;
 
+   /*for loop variable*/
+
+
 }
