@@ -29,5 +29,17 @@ char * abbreviate(const char *phrase)
     *  to determine the number of the words
     */
 
+   while(p_str && (i < 80))
+   {
+       if (*p_str == ' ')
+       {
+           counter++;
+       }
+       if (i < 80)
+       {
+
+       }
+   }
+
 
 }
