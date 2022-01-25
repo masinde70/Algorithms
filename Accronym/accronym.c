@@ -75,7 +75,10 @@ char * abbreviate(const char *phrase)
        }
    }
    /*adds the largest word*/
-   *
+   *p_str = '\0';
+    strncat(words[index], p_start, 80);
+    index++;
+
 
 
 }
