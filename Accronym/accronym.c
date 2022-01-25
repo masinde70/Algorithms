@@ -15,6 +15,10 @@ char * abbreviate(const char *phrase)
     static char acr[80];:
     strcpy(acr, "");
 
+   /* For counting the words */
+   int counter = 0;
 
+   /* for position the words*/
+   int index = 0;
 
 }
