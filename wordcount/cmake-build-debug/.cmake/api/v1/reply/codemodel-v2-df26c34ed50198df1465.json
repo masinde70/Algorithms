@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "wordcount::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wordcount-Debug-ea78c645b311e5ca4801.json",
+					"jsonFile" : "target-wordcount-Debug-92a03b8f0205ce8bf031.json",
 					"name" : "wordcount",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug",
-		"source" : "/Users/masinde/CLionProjects/Algorithms/wordcount"
+		"build" : "/home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug",
+		"source" : "/home/masinde/Algorithms/Algorithms/wordcount"
 	},
 	"version" : 
 	{

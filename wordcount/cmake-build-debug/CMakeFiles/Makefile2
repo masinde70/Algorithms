@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/masinde/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /snap/clion/178/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/masinde/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = /snap/clion/178/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/masinde/CLionProjects/Algorithms/wordcount
+CMAKE_SOURCE_DIR = /home/masinde/Algorithms/Algorithms/wordcount
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug
+CMAKE_BINARY_DIR = /home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/wordcount.dir/clean
 CMakeFiles/wordcount.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordcount.dir/build.make CMakeFiles/wordcount.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordcount.dir/build.make CMakeFiles/wordcount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target wordcount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target wordcount"
 .PHONY : CMakeFiles/wordcount.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wordcount.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/wordcount.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/wordcount.dir/rule
 
 # Convenience name for target.

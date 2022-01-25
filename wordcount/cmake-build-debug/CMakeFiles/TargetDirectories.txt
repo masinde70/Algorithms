@@ -1,3 +1,3 @@
-/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/masinde/CLionProjects/Algorithms/wordcount/cmake-build-debug/CMakeFiles/wordcount.dir
+/home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/masinde/Algorithms/Algorithms/wordcount/cmake-build-debug/CMakeFiles/wordcount.dir
