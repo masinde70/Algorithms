@@ -37,7 +37,8 @@ char * abbreviate(const char *phrase)
        }
        if (i < 80)
        {
-
+            p_str++;
+            i++;
        }
    }
 
