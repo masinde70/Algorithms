@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "accronym.h"
+#include <stdlib.h>
 
 
 char * abbreviate(const char *phrase)
@@ -12,7 +13,7 @@ char * abbreviate(const char *phrase)
     char str[80];
     strcpy(str, phrase);
     char *p_str = str;
-    static char acr[80];:
+    static char acr[80];
     strcpy(acr, "");
 
    /* For counting the words */
@@ -74,11 +75,23 @@ char * abbreviate(const char *phrase)
            i++;
        }
    }
-   /*adds the largest word*/
+   /*adds the last word*/
    *p_str = '\0';
     strncat(words[index], p_start, 80);
     index++;
 
+    /* builds the actual acronym */
+    for (i = 0; i < index; i++)
+    {
+        /* capitalize the first character */
+        words[i][0] = toupper(words[i][0]);
+        words[i][1] = '\0';
+        strcat(acr, words[i]);
+    }
 
+    for (i = 0; i < counter; i++)free(words[i]);
+    free(words);
+
+    return acr;
 
 }
