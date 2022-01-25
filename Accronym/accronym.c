@@ -58,7 +58,14 @@ char * abbreviate(const char *phrase)
 
    char *p_start = p_str;
 
-
+   /*collects each word in array 'words'*/
+   while (p_str  && (i <= 80))
+   {
+       if (*p_str == ' ')
+       {
+           *p_str = '\0';
+       }
+   }
 
 
 }
