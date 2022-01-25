@@ -68,7 +68,14 @@ char * abbreviate(const char *phrase)
            index++;
            p_start = p_str + 1;
        }
+       if ( i <= 80)
+       {
+           p_str++;
+           i++;
+       }
    }
+   /*adds the largest word*/
+   *
 
 
 }
