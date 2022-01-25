@@ -7,6 +7,14 @@
 #include "accronym.h"
 
 
-char * abbreviate(const char *phrase){
+char * abbreviate(const char *phrase)
+{
+    char str[80];
+    strcpy(str, phrase);
+    char *p_str = str;
+    static char acr[80];:
+    strcpy(acr, "");
+
+
 
 }
