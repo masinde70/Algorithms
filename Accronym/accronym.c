@@ -22,6 +22,8 @@ char * abbreviate(const char *phrase)
    int index = 0;
 
    /*for loop variable*/
+   int i = 0;
+
 
 
 }
