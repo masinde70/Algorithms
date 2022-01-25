@@ -24,6 +24,10 @@ char * abbreviate(const char *phrase)
    /*for loop variable*/
    int i = 0;
 
+   /*
+    *  counts the empty-characters.
+    *  to determine the number of the words
+    */
 
 
 }
