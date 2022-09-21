@@ -171,4 +171,6 @@ For example, a graph of friends would likely be undirected, since friendship is 
 ### Bit Manipulation
 1. https://stackoverflow.com/questions/746171/efficient-algorithm-for-bit-reversal-from-msb-lsb-to-lsb-msb-in-c
 2. https://nicolwk.medium.com/bitwise-operations-cheat-sheet-743e09aec5b5
-
+3. https://cheatography.com/jsondhof/cheat-sheets/bit-hacks/pdf/
+4. [Bits](https://github.com/kushagra414/Dynamic-Programming/blob/master/Bit%20Manipulation%20Cheat%20Sheet.md)
+5. [](https://timseverien.github.io/binary-cheatsheet/)
